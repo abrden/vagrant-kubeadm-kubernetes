@@ -27,7 +27,7 @@ else
    mkdir -p /vagrant/configs
 fi
 
-cp -i /etc/kubernetes/admin.conf /vagrant/configs/config
+sudo cp -i /etc/kubernetes/admin.conf /vagrant/configs/config
 touch /vagrant/configs/join.sh
 chmod +x /vagrant/configs/join.sh       
 
